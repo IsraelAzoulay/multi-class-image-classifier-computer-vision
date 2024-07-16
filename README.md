@@ -1,2 +1,2 @@
 # MultiClass-Classifier-ComputerVision
-Multi-Class classifier Computer Vision project developed with PyTorch
+Multi-Class classifier Computer Vision project currently developed with PyTorch
