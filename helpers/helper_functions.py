@@ -11,6 +11,7 @@ import torch
 import torchvision
 from torch import nn
 from typing import List
+from typing import Tuple, List, Dict
 
 
 def download_data(source: str, 
