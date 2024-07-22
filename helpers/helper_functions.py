@@ -153,7 +153,7 @@ def set_seeds(seed: int=42):
     torch.cuda.manual_seed(seed)
 
 
-def plot_loss_curves(results: Dict[str, List[float]]):
+def plot_loss_curves(results):
     """The function plots the training curves of a results dictionary.
 
     Args:
