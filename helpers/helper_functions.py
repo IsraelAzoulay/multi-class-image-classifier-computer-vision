@@ -104,29 +104,6 @@ def plot_transformed_images(image_paths, transform, n=3, seed=42):
             fig.suptitle(f"Class: {image_path.parent.stem}", fontsize=16)
 
 
-def find_classes(directory: str) -> Tuple[List[str], Dict[str, int]]:
-    """The function finds the class folder names in the target directory.
-    It assumes the target directory follows the standard image classification format.
-
-    Args:
-        directory (str): target directory to load classnames from.
-
-    Returns:
-        Tuple[List[str], Dict[str, int]]: (list_of_class_names, dict(class_name: idx...))
-    """
-    # Retrieve the class names by scanning the target directory
-    classes = sorted(entry.name for entry in os.scandir(directory) if entry.is_dir())
-
-    # Raise an error if class names not found
-    if not classes:
-        raise FileNotFoundError(f"Couldn't find any classes in {directory}.")
-
-    # Create a dictionary of index labels
-    class_to_idx = {cls_name: i for i, cls_name in enumerate(classes)}
-
-    return classes, class_to_idx
-
-
 def display_random_images(dataset: torch.utils.data.dataset.Dataset,
                           classes: List[str] = None,
                           n: int = 10,
