@@ -198,7 +198,18 @@ def pred_and_plot_image(model: torch.nn.Module,
                         transform=None,
                         device: torch.device = device):
     """The function makes a prediction on a target image, and plots the image
-    with its prediction."""
+    with its prediction.
+
+    Args:
+      model (torch.nn.Module): Trained model.
+      image_path (str): Filepath to the target image.
+      class_names (List[str], optional): Different class names for target image. Defaults to None.
+      transform (_type_, optional): Transform of target image. Defaults to None.
+      device (torch.device, optional): Target device to compute on. 
+    
+    Returns:
+      A matplotlib plot of target image and model prediction as title.""" 
+      
     # Read the image and convert the tensor values to float32
     target_image = torchvision.io.read_image(str(image_path)).type(torch.float32)
 
