@@ -1,4 +1,4 @@
-# DishVision - Computer Vision Multi Class Classifier 
+# DishVision: Computer Vision Multi-Class Image Classifier
 Multi-Class classifier Computer Vision project currently developed with PyTorch
 
 ## Contributing
