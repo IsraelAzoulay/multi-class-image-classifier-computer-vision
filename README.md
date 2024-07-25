@@ -11,15 +11,15 @@ This repository contains a project focused on classifying images of three differ
 
 ## Repository Contents
 - **Notebooks:**
-  - **Structuring_the_Food101_Dataset:** Notebook for preparing and organizing the Food-101 dataset from 'torchvision.datasets'.
-  - **Food Image Deca (10 Classes) Classifier - Computer Vision:** Notebook detailing the data loading and preprocessing, model training, evaluation, and results.
+  - **Structuring_the_Food101_Dataset:** Notebook for preparing and structuring the Food-101 dataset from 'torchvision.datasets'.
+  - **Computer_Vision_Multi_Class_Image_Classifier_Project:** Notebook detailing the data loading and preprocessing, model training, evaluation, prediction, saving, deployment and more.
 - **Scripts:**
   - **helper_functions.py:** Contains utility functions needed for the project, located in the 'helpers' folder.
 - **Data:** Preprocessed datasets located in the 'data' folder.
 
 ## Getting Started
 1. **Clone the repository:**
-   !git clone https://github.com/IsraelAzoulay/food-image-deca-classifier-computer-vision.git
+   !git clone https://github.com/IsraelAzoulay/multi-class-image-classifier-computer-vision.git
 2. **Open the provided Google Colab notebooks:**
 Navigate to the 'notebooks' folder and open the desired notebook in Google Colab.
 3. **Run the Notebooks:**
