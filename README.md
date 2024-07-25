@@ -1,21 +1,22 @@
 # DishVision: Computer Vision Multi-Class Image Classifier
-This repository contains a project focused on classifying images of three different types of food using deep learning and computer vision techniques. The project leverages transfer learning and fine-tuning with PyTorch to achieve a high accuracy of **96+%** on the test set. The implementation is carried out on Google Colab for efficient computation and easy accessibility.
+This repository houses an advanced project focused on classifying images of three distinct types of food using cutting-edge deep learning and computer vision techniques. The project leverages transfer learning with PyTorch to achieve an impressive accuracy of **96+%** on the test set. Additionally, it includes a detailed replication of the Vision Transformer (ViT) architecture from a prominent machine learning research paper, showcasing both the potential and challenges of this advanced approach. The implementation is executed on Google Colab for efficient computation and easy accessibility.
 
 ## Key Features
-- **Data Source:** Preprocessed food image datasets derived from the 'Structuring_the_Food101_Dataset' notebook.
+- **Data Source:** Preprocessed food image datasets, prepared in the 'Structuring_the_Food101_Dataset' notebook.
 - **Deep Learning Framework:** PyTorch
-- **Model Type:** Deep Learning, Computer Vision, Transfer Learning Feature Extraction, and Transfer Learning with Data Augmentation, TinyVGG, ViT Computer Vision Transformer, Machine Learning Reasearch Paper replication, and more. 
-- **Goal:** Classifying images into three different food classes
-- **Accuracy:** Achieves **96+%** accuracy on the test set
-- **Environment:** Google Colab for development and execution
+- **Model Type:** A diverse range of models including Transfer Learning Feature Extraction, Transfer Learning with Data Augmentation, TinyVGG, Vision Transformer (ViT) with Machine Learning Research Paper replication, and more.
+- **Objective:** Classifying images into three distinct food categories.
+- **Accuracy:** Achieves an exceptional **96+%** accuracy on the test set.
+- **Development Environment:** Google Colab for development and execution.
+- **Deployment:** The optimal model is deployed on Hugging Face, providing an accessible user interface for practical applications.
 
 ## Repository Contents
 - **Notebooks:**
-  - **Structuring_the_Food101_Dataset:** Notebook for preparing and structuring the Food-101 dataset from 'torchvision.datasets'.
-  - **Computer_Vision_Multi_Class_Image_Classifier_Project:** Notebook detailing the data loading and preprocessing, model training, evaluation, prediction, saving, deployment and more.
+  - **Structuring_the_Food101_Dataset:** Notebook dedicated to preparing and structuring the Food-101 dataset sourced from 'torchvision.datasets'.
+  - **Computer_Vision_Multi_Class_Image_Classifier_Project:** Comprehensive notebook detailing data loading and preprocessing, model training, evaluation, prediction, saving, deployment, and more.
 - **Scripts:**
-  - **helper_functions.py:** Contains utility functions needed for the project, located in the 'helpers' folder.
-- **Data:** Preprocessed datasets located in the 'data' folder.
+  - **helper_functions.py:** Contains essential utility functions required for the project, located in the 'helpers' folder.
+- **Data:** Includes preprocessed datasets and a custom image for prediction purposes, located in the 'data' folder.
 
 ## Getting Started
 1. **Clone the repository:**
@@ -23,7 +24,7 @@ This repository contains a project focused on classifying images of three differ
 2. **Open the provided Google Colab notebooks:**
 Navigate to the 'notebooks' folder and open the desired notebook in Google Colab.
 3. **Run the Notebooks:**
-Follow the instructions in the notebooks to download the datasets, preprocess the data, train, evaluate, predict and save the models.
+Follow the instructions in the notebooks to download the datasets, preprocess the data, train, evaluate, predict, save and deploy the models.
 
 ## Contributing
 Contributions are welcome! Please feel free to submit a Pull Request.
