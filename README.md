@@ -1,5 +1,5 @@
 # DishVision: Computer Vision Multi-Class Image Classifier
-This repository houses an advanced project focused on classifying images of three distinct types of food using cutting-edge deep learning and computer vision techniques. The project leverages transfer learning with PyTorch to achieve an impressive accuracy of **96+%** on the test set. Additionally, it includes a detailed replication of the Vision Transformer (ViT) architecture from a prominent machine learning research paper, showcasing both the potential and challenges of this advanced approach. The implementation is executed on Google Colab for efficient computation and easy accessibility.
+This repository houses an advanced project focused on classifying images of three distinct types of food using cutting-edge deep learning and computer vision techniques. The project leverages transfer learning with PyTorch to achieve an impressive accuracy of **96+%** on the test set. Additionally, it includes a detailed replication of the Vision Transformer (ViT) architecture from a prominent machine learning research paper, showcasing both the potential and challenges of this advanced approach. The implementation is executed on Google Colab for efficient computation and easy accessibility. The optimal model has been deployed on Hugging Face as an interactive app and can be accessed [here](https://huggingface.co/spaces/IsraelAzoulay/DishVision).
 
 ## Key Features
 - **Data Source:** Preprocessed food image datasets, prepared in the 'Structuring_the_Food101_Dataset' notebook.
@@ -8,7 +8,7 @@ This repository houses an advanced project focused on classifying images of thre
 - **Objective:** Classifying images into three distinct food categories.
 - **Accuracy:** Achieves an exceptional **96+%** accuracy on the test set.
 - **Development Environment:** Google Colab for development and execution.
-- **Deployment:** The optimal model is deployed on Hugging Face, providing an accessible user interface for practical applications.
+- **Deployment:** The optimal model is deployed on Hugging Face as an interactive app. 
 
 ## Repository Contents
 - **Notebooks:**
